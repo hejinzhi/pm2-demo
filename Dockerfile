@@ -15,4 +15,5 @@ RUN npm install --production
 # Show current folder structure in logs
 #RUN ls -al -R
 EXPOSE 3000
-CMD [ "pm2-docker", "start", "pm2.json" ]
+# CMD [ "pm2-docker", "start", "pm2.json" ]
+CMD pm2 start ./src/api.js && pm2 log ß
