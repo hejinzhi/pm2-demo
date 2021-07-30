@@ -5,7 +5,8 @@
   "main": "index.js",
   "private": "true",
   "scripts": {
-    "test": "xo&& bash ./test/test.sh"
+    "test": "xo&& bash ./test/test.sh",
+    "dev": "node ./src/api.js"
   },
   "author": "Keymetrics <contact@keymetrics.io>",
   "license": "MIT",
